@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Target .NET Framework 4.8 -->
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Infrastructure.UnitTests</RootNamespace>
+    <AssemblyName>Infrastructure.UnitTests</AssemblyName>
+
+    <!-- Debug/Release defaults -->
+    <DebugType>full</DebugType>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Infrastructure.UnitTests_csproj.bak" />
+  </ItemGroup>
+
+  <!-- References to solution projects -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Helpers\Helpers.csproj" />
+    <ProjectReference Include="..\..\..\src\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <!-- NuGet package references -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="coverlet.collector" />
+    <PackageReference Include="Moq" />
+  </ItemGroup>
+
+</Project>
