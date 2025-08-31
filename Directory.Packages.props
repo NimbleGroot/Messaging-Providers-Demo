@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Nuget packages ofr unit tests -->
+    <!-- Nuget packages for main projects -->
+    <PackageVersion Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
+    <PackageVersion Include="Microsoft.AspNet.Razor" Version="3.3.0" />
+    <PackageVersion Include="Microsoft.AspNet.WebPages" Version="3.3.0" />
+    <PackageVersion Include="Microsoft.AspNet.Web.Optimization" Version="1.1.3" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="4.1.0" />
+
+    <!-- Nuget packages for unit tests -->
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
     <PackageVersion Include="xunit" Version="2.9.3" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.4" />

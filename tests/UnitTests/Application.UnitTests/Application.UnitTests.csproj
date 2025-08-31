@@ -3,8 +3,8 @@
   <PropertyGroup>
     <!-- Target .NET Framework 4.8 -->
     <TargetFramework>net48</TargetFramework>
-    <RootNamespace>Application.UnitTests</RootNamespace>
-    <AssemblyName>Application.UnitTests</AssemblyName>
+    <RootNamespace>MessagingProvidersDemo.Application.UnitTests</RootNamespace>
+    <AssemblyName>Messaging-Providers-Demo.Application.UnitTests</AssemblyName>
 
     <!-- Optional: produce debug symbols for local dev -->
     <DebugType>full</DebugType>

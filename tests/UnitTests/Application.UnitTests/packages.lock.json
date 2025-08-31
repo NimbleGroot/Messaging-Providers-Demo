@@ -131,20 +131,20 @@
           "xunit.extensibility.core": "[2.9.3]"
         }
       },
-      "application": {
+      "Messaging-Providers-Demo.Application": {
         "type": "Project",
         "dependencies": {
-          "Domain": "[1.0.0, )",
-          "Helpers": "[1.0.0, )"
+          "Messaging-Providers-Demo.Domain": "[1.0.0, )",
+          "Messaging-Providers-Demo.Helpers": "[1.0.0, )"
         }
       },
-      "domain": {
+      "Messaging-Providers-Demo.Domain": {
         "type": "Project",
         "dependencies": {
-          "Helpers": "[1.0.0, )"
+          "Messaging-Providers-Demo.Helpers": "[1.0.0, )"
         }
       },
-      "helpers": {
+      "Messaging-Providers-Demo.Helpers": {
         "type": "Project"
       }
     }

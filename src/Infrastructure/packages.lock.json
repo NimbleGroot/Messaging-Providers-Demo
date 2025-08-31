@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dependencies": {
+    ".NETFramework,Version=v4.8": {
+      "Messaging-Providers-Demo.Domain": {
+        "type": "Project",
+        "dependencies": {
+          "Messaging-Providers-Demo.Helpers": "[1.0.0, )"
+        }
+      },
+      "Messaging-Providers-Demo.Helpers": {
+        "type": "Project"
+      }
+    }
+  }
+}
